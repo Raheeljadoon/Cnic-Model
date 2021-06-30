@@ -76,7 +76,7 @@ print("Present address is :" , Present_Address)
 
 print("Family_Religion is : " , Religion)
 
-Csv_writer = Name,Father_Name,Mother_Name,Gender, Religion,Country,Permanent_Address,Present_Address,
+Csv_writer = Name,Father_Name,Mother_Name,Gender, Religion,Country,Permanent_Address,Present_Address,year,month,date
 
 with open('data.csv' ,'w') as file:
     writer = csv.writer(file)
